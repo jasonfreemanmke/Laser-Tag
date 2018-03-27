@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lasertagpro</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="txtMainTitle">Choose Your Game</string>
+    <string name="txtMainframeTtl">Mainframe</string>
+    <string name="txtGamesTtl">Games</string>
+    <string name="txtCaptureTtl">Capture the Flag</string>
+    <string name="txtBombTtl">Defuse the Bomb</string>
+    <string name="btnBomb">Defuse the Bomb</string>
+    <string name="btnCapture">Capture the Flag</string>
+    <string name="btnMainframe">Mainframe</string>
+    <string name="btnRed">Red Team</string>
+    <string name="btnBlue">Blue Team</string>
+    <string name="btnGreen">Green Team</string>
+    <string name="btnPurple">Purple Team</string>
+    <string name="txtBxDesc">Description</string>
+    <string name="txtCapture">Welcome to Capture the Flag, A game in which each team tries to control which flag reigns for the longest</string>
+    <string name="txtBomb">Welcome to Defuse the Bomb, A simple game of getting the random code and entering it in time alotted, get it wrong and lose a minute off the clock, Run out of time and Your team loses</string>
+    <string name="txtMainframe">Welcome to Mainframe, A simple game of finding the random codes around the area and scanning them in before the other team</string>
+    <string name="btnStartGame">Start Game</string>
+    <string name="hintTimer">Enter Game Time</string>
+    <string name="hintTeams">Enter between 2 and 4</string>
+    <string name="btnGameInfo">Enter Game</string>
+    <string name="lblTeamNum">Number of Teams</string>
+    <string name="lblGameTime">Game Time</string>
+    <string name="btnGenCode">Generate Code</string>
+    <string name="hintUserCode">Enter Code</string>
+    <string name="btnEnterScan">Enter Scan</string>
+</resources>

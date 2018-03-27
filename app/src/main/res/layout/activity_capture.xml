@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.matc.lasertagpro.CaptureActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txtCaptureTtl"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/btnGreen"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnBlue"
+        tools:background="@android:color/holo_green_dark"/>
+
+    <Button
+        android:id="@+id/btnPurple"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="173dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/btnPurple"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBlue"/>
+
+    <Button
+        android:id="@+id/btnBlue"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="116dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/btnBlue"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btnGreen"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnRed"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="-21dp"
+        android:layout_marginTop="173dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/btnRed"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintLeft_toRightOf="@+id/btnPurple"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGreen"/>
+
+    <TextView
+        android:id="@+id/txtBxTimer"
+        android:layout_width="344dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="00:00:000"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="390dp"/>
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/btnStartGame"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
